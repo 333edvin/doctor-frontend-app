@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+.doc-details{
+    padding: 34px;
+}
+.doc-details h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+    .doc-details h3{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .doc-details h5{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .doc-details strong{
+        font-size: 12px;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-content{
+font-size: 4rem;
+font-weight: bolder;
+}
+
+.icons{
+    position: fixed;
+    top: 35%;
+    left: 95%;
+    
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 102, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    
+}
+.spec-icons{
+    border-radius: 50px;
+}
+.spec-icons i{
+    color: rgb(0, 114, 207);
+    font-size: 20px;
+}
+.spec-icon{
+    width: 150px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reviews p{
+font-size: 14px;
+}
+.pateints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+.cards{
+    width: 255px;
+}
+.pat1{
+    background-color: green;
+}
+.pat2{
+    background-color: rgb(128, 0, 0);
+}
+.pat3{
+    background-color: rgb(0, 45, 128);
+}
+.pat4{
+    background-color: rgb(124, 0, 128);
+}
+.last-box p{
+    font-size: 40px;
+font-weight: bold;
+}
+
+@media only screen and (max-width: 600px){
+    .banner-content{
+        font-size: 3rem;
+        font-weight: bolder;
+        }
+        .mini{
+            font-size: 14px;
+        }
+        .spec-icon{
+            font-size: 10px;
+            width: 250px;
+        }
+        .appoinment p{
+            font-size: 13px;
+
+        }
+        .appoinment img{
+            margin-right: 50px;
+
+        }
+        .last-box p{
+            font-size: 13px;
+            font-weight: bold;
+        }
+        .reviews p{
+            font-size: 11px;
+            }
+            .icons{
+                position: fixed;
+                top: 15%;
+                left: 88%;
+                z-index: 999;
+                
+            }
+            .icon{
+                width: 35px;
+                height: 35px;
+                
+            }
+}
